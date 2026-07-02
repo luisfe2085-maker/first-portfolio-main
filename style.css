@@ -326,10 +326,53 @@ projects
 
    /* footer */
 
-   footer {
-    background-color: black
-    
-   }
+footer { 
+    background-color: #242424; 
+    padding: 50px 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+}
+
+.footer__logo--img { 
+    width: 70px;
+    height: 70px;
 
 
+}
+
+.footer__logo--wrapper { 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.footer__social--list { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    padding: 0 12px;
+}
+
+.footer__social--link { 
+    color: white ; 
+    text-decoration: none;
+    margin: 0 12px;
+
+}
+
+.footer__copyright--para { 
+    margin-top: 20px; 
+    text-align: center;
+    color: white; 
+    font-size: 8px;
+
+}
+   
 
